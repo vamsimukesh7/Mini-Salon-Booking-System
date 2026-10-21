@@ -1,0 +1,12 @@
+{
+  "name": "atelier-workspace",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "prettier": "^3.5.3"
+  }
+}
