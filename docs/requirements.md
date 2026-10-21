@@ -29,7 +29,7 @@ are recorded in `validation.md`; no unrun feature is presented as verified.
 | p4 | English/Hinglish/Hindi-English-Marathi, scope refusal | Multilingual rendering/classification fallback; provider multilingual prompt | Local fallback verified; real LLM evaluation pending |
 | p4 | Separate system prompt .txt | docs/chatbot_system_prompt.txt, actually loaded by backend | Present |
 | p4 | Genuine iteration note with edge case and correction | docs/prompt_iteration_note.md records observed partial-total failure and regression | Present, measured locally |
-| p5 | Repository sharing link | Target GitHub origin known; source prepared locally | Push/access verification pending |
+| p5 | Repository sharing link | Source committed and pushed to GitHub main; remote branch verified | Pushed; evaluator access still needs checking |
 | p5 | Mandatory live frontend/backend/chatbot URL | Render blueprint + Neon instructions, same-origin build | Pending hosting credentials/deployment |
 | p5 | Cold-start disclosure | Deployment and submission notes | Prepared |
 | p5 | Mandatory candidate-recorded 2–3 minute walkthrough | Timed script in docs/recording_script.md | Candidate recording pending |
@@ -53,7 +53,8 @@ are recorded in `validation.md`; no unrun feature is presented as verified.
 - [x] Backend tests on both databases, lint, frontend types/build and browser workflows passed.
 - [ ] Live LLM calls and natural multilingual output assessed with a real key.
 - [ ] Hosted PostgreSQL and post-deploy persistence/concurrency verified.
-- [ ] Actual repository publication/access and live URL verified.
+- [x] Source committed and pushed to GitHub main; remote branch verified.
+- [ ] Evaluator repository access and live URL verified.
 - [ ] Candidate video recorded and submission links finalized.
 
 No numeric rubric score is claimed. Code-understanding points require the

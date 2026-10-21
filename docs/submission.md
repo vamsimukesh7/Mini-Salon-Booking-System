@@ -15,7 +15,7 @@ filling the external deliverables below. The authoritative page-by-page audit is
 - [x] Setup/API/architecture/testing/deployment documentation and .env examples.
 - [x] Local SQLite/PostgreSQL, browser workflows, build/type/lint checks passed.
 - [ ] Set a real LLM key securely and verify live multilingual/injection tests.
-- [ ] Commit and push reviewed source to the target GitHub repository.
+- [x] Commit and push reviewed source to the target GitHub repository.
 - [ ] Make the repository public or grant evaluator access through GitHub settings.
 - [ ] Deploy Render + Neon, test hosted persistence/concurrency and record live URL.
 - [ ] Share read-only hosted database inspection access securely if required.
@@ -25,10 +25,10 @@ filling the external deliverables below. The authoritative page-by-page audit is
 ## GitHub publication instructions
 
 The known target is `https://github.com/vamsimukesh7/Mini-Salon-Booking-System`.
-It was empty when inspected. Code is currently local and uncommitted; the URL does
-not yet establish that this implementation can be cloned. Review `git status` and
-ignored secrets before committing. Publish your reviewed initial commit to `main`
-using your authorized GitHub workflow. If private, open repository Settings →
+It was empty when initially inspected. The implementation has now been committed
+and pushed to `main`, with the remote branch verified. Private `.env` files, the
+local database and installed dependencies are excluded. Review future changes
+and ignored secrets before committing. If private, open repository Settings →
 Collaborators and invite the evaluator's supplied identity. No evaluator address
 was provided, and no invitations or submission messages have been sent.
 
@@ -39,7 +39,7 @@ Hello GURU AI Technologies team,
 My Mini Salon Booking & Billing System submission is available here:
 
 - Repository: https://github.com/vamsimukesh7/Mini-Salon-Booking-System
-  [Verify the code is pushed and reviewer access works before sending.]
+  [Verify reviewer access works before sending.]
 - Live application: [ADD ACTUAL VERIFIED HTTPS URL]
 - Candidate walkthrough (2–3 minutes): [ADD ACTUAL VIDEO URL]
 - Chatbot prompt: `docs/chatbot_system_prompt.txt`

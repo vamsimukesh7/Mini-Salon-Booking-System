@@ -3,10 +3,10 @@
 This configuration is prepared, not deployed. Hosting and provider accounts are not
 connected to this workspace. Check current provider free-tier limits before use.
 
-1. Review the source/tests. Create the first commit locally, then push to
-   `https://github.com/vamsimukesh7/Mini-Salon-Booking-System` on `main` with your
-   normal authorized Git workflow. Share the repository publicly or grant reviewer
-   access privately. The workspace does not claim to have pushed this code.
+1. Source is pushed to `main` at
+   `https://github.com/vamsimukesh7/Mini-Salon-Booking-System`. Review the code and
+   ensure the evaluator has access (public repository or invited collaborator).
+   Keep future secrets and local databases excluded from commits.
 2. Create a Neon free PostgreSQL project. Copy its pooled connection URL securely;
    retain `sslmode=require`. Never paste the connection string into an issue, chat,
    README or commit. The SQLAlchemy layer supports `postgresql://` or

@@ -50,7 +50,7 @@ all tests execute and pass. No assertion was disabled to achieve these results.
   for actual English/Hinglish/Marathi classifications and provider authorization.
 - Render/Neon account access is not connected. Local PostgreSQL success does not
   establish hosted TLS, pooler networking, permissions, free-tier limits or a live URL.
-- Source is local in an initially empty Git checkout. It has not been pushed.
+- Source was committed and pushed to GitHub `main` after local validation. Git remote verification confirms publication; evaluator access/public visibility is a separate check.
 - No candidate video was recorded. The recording script is ready to use.
 
 ## Reproduce PostgreSQL checks (optional)

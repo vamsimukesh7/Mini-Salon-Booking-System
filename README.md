@@ -160,7 +160,7 @@ Follow [docs/deployment.md](docs/deployment.md) for Render + Neon free-tier setu
 or container hosting with a persistent database. **Never use Render's ephemeral
 SQLite filesystem for authoritative production bookings.** The blueprint requires
 an external PostgreSQL connection. No live deployment or live provider verification
-has been performed in this workspace. No GitHub push is claimed.
+has been performed in this workspace. Source is published on `main` at https://github.com/vamsimukesh7/Mini-Salon-Booking-System; evaluator access still needs checking.
 
 Use [docs/recording_script.md](docs/recording_script.md) to record your own mandatory
 2–3 minute walkthrough. [docs/submission.md](docs/submission.md) lists remaining
